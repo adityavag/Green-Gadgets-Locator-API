@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_26831ec249fff95f3e821e2e605a642e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_26831ec249fff95f3e821e2e605a642e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_26831ec249fff95f3e821e2e605a642e = L.map(
+                "map_26831ec249fff95f3e821e2e605a642e",
+                {
+                    center: [13.0701064, 80.2707463],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b4da3eea901ee9f9394d567aff7a75c1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_26831ec249fff95f3e821e2e605a642e);
+        
+    
+            var marker_7c242f031b66d905920ad4c403656d95 = L.marker(
+                [13.0701064, 80.2707463],
+                {}
+            ).addTo(map_26831ec249fff95f3e821e2e605a642e);
+        
+    
+            var icon_4a6335aecbcbd38a2bcfd74cda69697b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c242f031b66d905920ad4c403656d95.setIcon(icon_4a6335aecbcbd38a2bcfd74cda69697b);
+        
+    
+        var popup_a72a4f7a20fddab4ab3029a2e0066983 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00865cb842445aa9e6dee0c0e11ab915 = $(`<div id="html_00865cb842445aa9e6dee0c0e11ab915" style="width: 100.0%; height: 100.0%;"><i>E-Waste Facility</i></div>`)[0];
+                popup_a72a4f7a20fddab4ab3029a2e0066983.setContent(html_00865cb842445aa9e6dee0c0e11ab915);
+            
+        
+
+        marker_7c242f031b66d905920ad4c403656d95.bindPopup(popup_a72a4f7a20fddab4ab3029a2e0066983)
+        ;
+
+        
+    
+    
+            marker_7c242f031b66d905920ad4c403656d95.bindTooltip(
+                `<div>
+                     Click me
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0be273844b8e861aaaa065fef38395f8 = L.circleMarker(
+                [13.0878, 80.2785],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_26831ec249fff95f3e821e2e605a642e);
+        
+    
+        var popup_2eb0c183d6c23eaa30cf984798543281 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce35e04ed1d2c3d33ec7b1bb2dc748f2 = $(`<div id="html_ce35e04ed1d2c3d33ec7b1bb2dc748f2" style="width: 100.0%; height: 100.0%;"><b>Your Location</b></div>`)[0];
+                popup_2eb0c183d6c23eaa30cf984798543281.setContent(html_ce35e04ed1d2c3d33ec7b1bb2dc748f2);
+            
+        
+
+        circle_marker_0be273844b8e861aaaa065fef38395f8.bindPopup(popup_2eb0c183d6c23eaa30cf984798543281)
+        ;
+
+        
+    
+    
+            circle_marker_0be273844b8e861aaaa065fef38395f8.bindTooltip(
+                `<div>
+                     Click me
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2441e9ff37f19488534dc881a93ea041 = L.polyline(
+                [[13.07005, 80.27073], [13.069510000000001, 80.27242], [13.073680000000003, 80.27635000000001], [13.081600000000002, 80.27515999999999], [13.082099999999999, 80.27799000000002], [13.08786, 80.27865000000004], [13.087895, 80.27841900000004]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_26831ec249fff95f3e821e2e605a642e);
+        
+</script>
+</html>
